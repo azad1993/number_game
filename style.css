@@ -121,23 +121,31 @@ h1 {
 @media only screen and (max-width: 700px) {
     body{
         overflow-x: hidden;
+        
     }
     
-    main, .left , .right, header{
+    main, .left , .right, header, h1{
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         text-align: center;
+        position: relative !important;
         
     }
-    h1, .btn {
-        position: relative !important;
+    input{
+        margin-top: 20px; 
+    }
+    
+    .again{
+        margin-top: 20px; 
+        
     }
     .btn{
       width: 80%;
       margin:0 15px;
       display:block;
       margin-bottom: 5px;
+      
     }
-    
+   
 } 
