@@ -147,5 +147,7 @@ h1 {
       margin-bottom: 5px;
       
     }
-   
+   .between, .guess{
+       position: relative;
+   }
 } 
